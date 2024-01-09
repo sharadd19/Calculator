@@ -15,7 +15,6 @@
     width: 75px;
     margin:15px;
     font-size: 40px;
-
  }
  .clear-button {
     height: 75px;
@@ -24,44 +23,60 @@
     margin-right: 50px;
     margin-bottom: 15px;
     font-size: 40px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: wheat;
+    color:black
  }
  .number {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
+    background-color: gainsboro;
+    color: black;
  }
  .operator, .equal{
-    border: 1px solid red;
+    border: 2px solid black;
     border-radius: 10px;
+    background-color: wheat;
+    color:black
  }
  .display{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 10px;
     height: 150px;
-    width: 400px;
     justify-content: flex-end;
     align-items: flex-end;
-    text-align: right;
     margin: 50px;
+    background-color: gainsboro;
+    color: black
     
  }
  .display-input {
     font-size: 25px;
     padding-right: 25px;
+    height: inherit;
+
  }
- .display-output {
+ .display-result {
     font-size: 75px;
     padding-right: 25px;
+    height: inherit;
+
  }
  .calculator {
     width: 500px;
     border: 2px black solid;
     border-radius: 20px;
+    background-color: grey;
+    
  }
- .decimal, .clear-button {
-    border: 1px solid green;
+ .decimal {
+    border: 2px solid black;
     border-radius: 10px;
+    background-color: wheat;
+    color: black;
  }
  .row{
     margin-left:35px;
